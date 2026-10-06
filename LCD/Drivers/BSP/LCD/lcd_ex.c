@@ -66,7 +66,7 @@ void lcd_ex_st7789_reginit(void)
     lcd_wr_regno(0xC2);
     lcd_wr_data(0x01);
 
-    lcd_wr_regno(0xC3); /*  */
+    lcd_wr_regno(0xC3); /* yyy */
     lcd_wr_data(0x10);  /* 17 0D */
 
     lcd_wr_regno(0xC4); /* vdv */
